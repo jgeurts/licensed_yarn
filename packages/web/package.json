@@ -1,0 +1,11 @@
+{
+  "name": "@licensed_yarn/web",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Website with bootstrap",
+  "author": "Jim Geurts <jim@biacreations.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.6.0"
+  }
+}

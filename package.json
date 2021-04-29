@@ -1,0 +1,20 @@
+{
+  "name": "@licensed_yarn/monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Repo to test licensed with yarn workspaces",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/bootstrap"
+    ]
+  },
+  "repository": "git@github.com:jgeurts/licensed_yarn.git",
+  "author": "Jim Geurts <jim@biacreations.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  }
+}
